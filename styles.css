@@ -1,0 +1,59 @@
+@font-face {
+	font-family: "custom-font";
+	src: url(fonts/CeraProMedium.otf) format("truetype");
+}
+
+@font-face {
+	font-family: "custom-bold-font";
+	src: url(fonts/AventaExtraBold.otf) format("truetype");
+}
+
+
+body{
+	font-family: 'custom-font';
+	/*padding-top: 80px;*/
+	padding-top: 0px;
+  	position: relative;
+  	overflow-x: hidden;
+}
+
+section {
+  /*padding: 150px 0;
+  overflow: hidden;*/
+  padding: 10px 0;
+  overflow: hidden
+}
+
+nav.navbar .navbar-brand {
+  font-weight: 800;
+  font-size: 1.7rem;
+}
+nav.navbar a.nav-link {
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.btn-primary{
+	background-color: #03A9F4
+}
+
+
+
+
+/*
+* ==========================================================
+*     HERO SECTION
+* ==========================================================
+*/
+section.hero p {
+  margin: 20px 0;
+}
+
+section.hero .CTA {
+  margin-top: 40px;
+}
+
+section.hero .CTA a {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
